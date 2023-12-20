@@ -1,0 +1,65 @@
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	/*FLEX*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/*ALTRO*/
+	font-family: sans-serif;
+	height: 100%;
+	width: auto;
+	margin: 0;
+	color: white;
+	background-color: black;
+}
+
+#main {
+	border: 1px white solid;
+}
+
+#scores {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 1.5em;
+	font-size: 2em;
+}
+
+#playerScore {
+	color: red;
+}
+
+#computerScore {
+	color: yellow;
+}
+
+#newGameButton {
+	background-color: blueviolet;
+	padding: 0.1em;
+	border-radius: 10px;
+}
+
+#gameTable {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-width: 32em;
+	min-height: 24em;
+	align-items: center;
+	justify-content: center;
+}
+
+.divs {
+	flex: 0 0 4em;
+	border: 1px white solid;
+	margin: 1px;
+	height: 4em;
+}
+
