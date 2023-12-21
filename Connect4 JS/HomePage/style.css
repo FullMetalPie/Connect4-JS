@@ -1,0 +1,74 @@
+/*
+--background:   #0a0908ff;
+--primary:      #e3170aff;
+--secondary:    #ff9505ff;
+--accent:       #ffb627ff;
+*/
+
+@font-face { font-family: Anita; src: url(../Anita\ semi\ square.ttf); }
+
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+    /*FLEX*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	/*ALTRO*/
+	font-family: sans-serif;
+	height: 100%;
+	width: auto;
+	margin: 0;
+	color: #0a0908ff;
+    /*COLORS*/
+    background-color: #0a0908ff;
+    /*FONTS*/
+    font-family: Anita, sans-serif;
+}
+
+#title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 4em;
+    font-weight: bold;
+    margin: 1em;
+}
+
+h1 {
+    margin: 0;
+    background: -webkit-linear-gradient(1deg, #e3170aff, #ff9505ff);
+    background-clip: unset;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+p {
+    font-size: 0.25em;
+    color: #f7f7f7;
+    font-style: italic;
+}
+
+a {
+    padding: 0.5em;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10%;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    color: #f7f7f7;
+    transition: .3s;
+}
+
+a:hover {
+    border-radius: 20%;
+    color: #e3170aff;
+    border: 2px solid #e3170aff;
+}
