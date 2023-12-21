@@ -1,0 +1,94 @@
+/*
+--background:   #0a0908ff;
+--primary:      #e3170aff;
+--secondary:    #ff9505ff;
+--accent:       #ffb627ff;
+*/
+
+@font-face { font-family: Anita; src: url(../Anita\ semi\ square.ttf); }
+
+html {
+	margin: 0;
+	padding: 0;
+	height: 100%;
+}
+
+body {
+	/*FLEX*/
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	/*ALTRO*/
+	font-family: Anita, sans-serif;
+	height: 100%;
+	width: auto;
+	margin: 0;
+	color: white;
+	background-color: #0a0908ff;
+	flex-wrap: wrap;
+}
+
+#main {
+	border: 1px white solid;
+}
+
+.scores {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 1.5em;
+	font-size: 2em;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#playerScore {
+	color: #e3170aff;
+}
+
+#playerText {
+	color: #e3170aff;
+}
+
+#computerScore {
+	color: #ff9505ff;
+}
+
+#computerText {
+	color: #ff9505ff;
+}
+
+#bottomButtons {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 1em;
+}
+
+.buttons {
+	background-color: blueviolet;
+	padding: 0.1em;
+	border-radius: 10px;
+}
+
+#gameTable {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	min-width: 32em;
+	min-height: 24em;
+	align-items: center;
+	justify-content: center;
+	background-color: #2129C6;
+}
+
+.divs {
+	flex: 0 0 4em;
+	margin: 2px;
+	height: 4em;
+	border-radius: 50px;
+	border: 1px black solid;
+}
+
