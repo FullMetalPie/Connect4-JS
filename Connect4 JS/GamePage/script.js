@@ -149,3 +149,25 @@ function checkWin() {
     // Nessuna vittoria
     return false;
 }
+
+function rematch() {
+    for (let i = 0; i < 6; i++) {
+        for (let j = 0; j < 7; j++) {
+            matrix[i][j].style.backgroundColor = "#0a0908ff";
+        }
+    }
+}
+
+function newGame() {
+    for (let i = 0; i < 6; i++) {
+        for (let j = 0; j < 7; j++) {
+            matrix[i][j].style.backgroundColor = "#0a0908ff";
+        }
+    }
+
+    let output = document.getElementById("playerScore");
+    output.textContent = 0;
+
+    output = document.getElementById("computerScore");
+    output.textContent = 0;
+}

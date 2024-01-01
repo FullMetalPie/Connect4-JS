@@ -40,8 +40,8 @@ body {
 	justify-content: center;
 	margin: 1.5em;
 	font-size: 2em;
-	margin-right: auto;
 	margin-left: auto;
+	margin-right: auto;
 }
 
 #playerScore {
@@ -65,12 +65,26 @@ body {
 	align-items: center;
 	justify-content: center;
 	padding: 1em;
+	width: 100%;
 }
 
 .buttons {
-	background-color: blueviolet;
-	padding: 0.1em;
-	border-radius: 10px;
+	padding: 0.5em;
+    font-size: 2em;
+    text-decoration: none;
+    margin: 10px;
+    border-radius: 10%;
+    border: 2px solid #f7f7f7;
+    text-align: center;
+    color: #f7f7f7;
+    transition: .3s;
+	cursor: pointer;
+}
+
+.buttons:hover {
+    border-radius: 20%;
+    color: #ffb627ff;
+    border: 2px solid #ffb627ff;
 }
 
 #gameTable {
@@ -91,4 +105,3 @@ body {
 	border-radius: 50px;
 	border: 1px black solid;
 }
-

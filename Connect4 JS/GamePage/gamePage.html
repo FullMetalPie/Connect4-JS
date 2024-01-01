@@ -4,6 +4,7 @@
 		<meta name="author" content="Pietri Andrea 4AI" />
 		<meta charset="UTF-8" />
 		<link rel="stylesheet" href="style.css" type="text/css" />
+		<title>Connect4 | Play</title>
 	</head>
 	<body onload="generateTable()">
 		<div class="scores">
@@ -21,14 +22,17 @@
 			</p>
 			<output id="computerScore">0</output>
 		</div>
-		<div class="break"></div>
+		<div id="break"></div>
 		<div id="bottomButtons">
-			<p>
-				ciao
-			</p>
-			<p>
-				ciao2
-			</p>
+			<a class="buttons" href="../HomePage/index.html">
+				Home page
+			</a>
+			<div class="buttons" onclick="rematch()">
+				Rematch
+			</div>
+			<div class="buttons" onclick="newGame()">
+				New game
+			</div>
 		</div>
 		<script src="script.js"></script>
 	</body>
